@@ -1,0 +1,48 @@
+version: 1
+project:
+  title: ML Engineering
+  copyright: 2025. CC0 Licensed - Use as you like. Appropriate credit is very welcome
+  github: ml-course/master
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/book.pdf
+  toc:
+    - file: intro.md
+    - title: Lectures
+      children:
+        - file: notebooks/01 - Introduction.ipynb
+        - file: notebooks/02 - Linear Models.ipynb
+        - file: notebooks/03 - Model Evaluation.ipynb
+        - file: notebooks/04 - Ensemble Learning.ipynb
+        - file: notebooks/05 - Data Preprocessing.ipynb
+        - file: notebooks/06 - Neural Networks.ipynb
+        - file: notebooks/07 - Convolutional Neural Networks.ipynb
+        - file: notebooks/08 - Transformers.ipynb
+    - title: Labs
+      children:
+        - file: labs/Lab 0 - Prerequisites.ipynb
+        - file: labs/Lab 1a - Linear Models for Regression.ipynb
+        - file: labs/Lab 1b - Linear Models for Classification.ipynb
+        - file: labs/Lab 2 - Model Evaluation.ipynb
+        - file: labs/Lab 3a - Ensembles.ipynb
+        - file: labs/Lab 3b - Pipelines.ipynb
+        - file: labs/Lab 4 - Neural Networks.ipynb
+        - file: labs/Lab 5 - Convolutional Neural Networks.ipynb
+        - file: labs/Lab 6 - Transformers.ipynb
+    - title: Tutorials
+      children:
+        - file: notebooks/Tutorial 1 - Python.ipynb
+        - file: notebooks/Tutorial 2 - Python for Data Analysis.ipynb
+        - file: notebooks/Tutorial 3 - Machine Learning in Python.ipynb
+        - file: labs/Lab 1 - Tutorial.ipynb
+        - file: labs/Lab 2 - Tutorial.ipynb
+        - file: labs/Lab 3 - Tutorial.ipynb
+        - file: labs/Lab 4 - Tutorial.ipynb
+        - file: labs/Lab 6 - Tutorial.ipynb
+site:
+  options:
+    logo: notebooks/images/banner.jpeg
+    favicon: notebooks/images/favicon.png
+    folders: true
+  template: book-theme

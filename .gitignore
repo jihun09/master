@@ -7,3 +7,6 @@ data/*
 *.swp
 .ipynb_checkpoints
 .jupyter
+
+# MyST build outputs
+_build
