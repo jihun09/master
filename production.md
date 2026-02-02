@@ -57,7 +57,7 @@ To push the rendered book to GitHub, run:
 
 ```
 pip install ghp-import
-ghp-import -n -p -f _build/html
+ghp-import -n -p -f _build
 ```
 
 #### Customization
