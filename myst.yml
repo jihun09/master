@@ -40,6 +40,13 @@ project:
         - file: labs/Lab 3 - Tutorial.ipynb
         - file: labs/Lab 4 - Tutorial.ipynb
         - file: labs/Lab 6 - Tutorial.ipynb
+    - title: Extra
+      children:
+        - file: xtra/Decision Trees.ipynb
+        - file: xtra/Nearest Neighbors.ipynb
+        - file: xtra/Data Preprocessing Basics.ipynb
+        - file: xtra/Kernelization.ipynb
+        - file: xtra/Bayesian Learning.ipynb
 site:
   options:
     logo: notebooks/images/banner.jpeg

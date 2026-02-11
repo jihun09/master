@@ -55,11 +55,12 @@ General introductions into using Python for scientific programming and machine l
 ### Extra lectures
 Lectures on both basic machine learning techniques (useful for novices to cover any knowledge gaps), as well as additional useful techniques that we couldn't fit into the schedule.
 
-1. [Decision trees](https://ml-course.github.io/master/xtra/Decision%20Trees)
-2. [Nearest Neighbors](https://ml-course.github.io/master/xtra/Nearest%20Neighbors)
-3. [Data Preprocessing Basics](https://ml-course.github.io/master/xtra/Data%20Preprocessing%20Basics)
-4. [Kernelization](https://ml-course.github.io/master/xtra/Kernelization)
-5. [Bayesian Learning](https://ml-course.github.io/master/xtra/Bayesian%20Learning)
+1. [Decision trees](https://ml-course.github.io/master/blob/master/xtra/Decision%20Trees.ipynb)
+2. [Nearest Neighbors](https://ml-course.github.io/master/blob/master/xtra/Nearest%20Neighbors.ipynb)
+3. [Data Preprocessing Basics](https://ml-course.github.io/master/blob/master/xtra/Data%20Preprocessing%20Basics.ipynb)
+4. [Kernelization](https://ml-course.github.io/master/blob/master/xtra/Kernelization.ipynb)
+5. [Bayesian Learning](https://ml-course.github.io/master/blob/master/xtra/Bayesian%20Learning.ipynb)
+5. [Automated Machine Learning](https://github.com/ML-course/master/blob/master/xtra/AutoML.pdf)
 
 ### Recommended resources
 These resources help to further deepen your skills, and are well aligned with this course.
